@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  padding: 15px;
+  background: #1e293b;
+  text-align: center;
+  font-size: 20px;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+}
+
+.left-panel,
+.right-panel {
+  width: 250px;
+  background: #1e293b;
+  padding: 10px;
+}
+
+.cube-view {
+  flex: 1;
+}
+
+.bottom-panel {
+  height: 120px;
+  background: #020617;
+  padding: 10px;
+}
+
+
